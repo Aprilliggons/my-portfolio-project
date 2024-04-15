@@ -1,8 +1,25 @@
 body {
-  background-color: blue;
+  background-color: rgba(15, 23, 42, 1);
 }
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
-  color: white;
+  color: rgba(226, 232, 240, 1);
+  font-size: 84px;
+}
+
+p,
+h2 {
+  font-family: "DM Sans", sans-serif;
+  color: rgba(226, 232, 240, 1);
+}
+p {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
