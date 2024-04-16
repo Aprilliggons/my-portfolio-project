@@ -1,20 +1,26 @@
+:root {
+  --primary-color: rgba(15, 23, 42, 1);
+  --secondary-color: rgba(226, 232, 240, 1);
+  --accent-color: rgba(8, 23, 58, 1);
+}
+
 body {
-  background-color: rgba(226, 232, 240, 1);
+  background-color: var(--secondary-color);
 }
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
-  color: rgba(226, 232, 240, 1);
+  color: var(--secondary-color);
   font-size: 84px;
 }
 
 p,
 h2 {
   font-family: "DM Sans", sans-serif;
-  color: rgba(226, 232, 240, 1);
+  color: var(--secondary-color);
 }
 .homepage {
-  background-color: rgba(15, 23, 42, 1);
+  background-color: var(--primary-color);
   padding: 1px;
   padding-bottom: 20px;
 }
@@ -29,8 +35,8 @@ h2 {
   justify-content: center;
 }
 .btn-primary {
-  background: rgba(226, 232, 240, 1);
-  color: rgba(15, 23, 42, 1);
+  background: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 20px;
   border: none;
   padding: 20px 40px;
@@ -40,8 +46,8 @@ h2 {
 }
 
 .btn-primary:hover {
-  background: rgb(8, 23, 58, 1);
-  color: rgba(226, 232, 240, 1);
+  background: var(--accent-color);
+  color: var(--secondary-color);
   transform: translateY(-5px);
 }
 .skills-section {
@@ -49,4 +55,37 @@ h2 {
   font-family: "DM Sans", sans-serif;
   font-size: 24px;
   font-weight: bold;
+}
+
+.project-name {
+  font-family: "Playfair Display", serif;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.project-description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  color: rgba(15, 23, 42, 1);
+}
+
+.primary-link {
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.primary-link:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  transform: translateY(-5px);
+}
+
+.project-photo {
+  box-shadow: 0 30px 50px rgba(65, 58, 100, 0.08);
 }
