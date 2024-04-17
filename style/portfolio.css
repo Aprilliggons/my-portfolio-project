@@ -66,12 +66,12 @@ h2 {
 
 .project-description {
   font-family: "DM Sans", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: rgba(15, 23, 42, 1);
 }
 
 .primary-link {
-  padding: 20px;
+  padding: 15px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-decoration: none;
@@ -88,4 +88,6 @@ h2 {
 
 .project-photo {
   box-shadow: 0 30px 50px rgba(65, 58, 100, 0.08);
+  border: 10px solid rgba(8, 23, 58, 1);
+  border-radius: 8px;
 }
