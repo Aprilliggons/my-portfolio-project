@@ -7,6 +7,10 @@
 body {
   background-color: var(--secondary-color);
 }
+
+.about-section {
+  background-color: var(--primary-color);
+}
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -19,15 +23,20 @@ h2 {
   font-family: "DM Sans", sans-serif;
   color: var(--secondary-color);
 }
+
 .homepage {
   background-color: var(--primary-color);
-  padding: 1px;
+  padding: 50px;
   padding-bottom: 20px;
 }
 .homepage p {
   font-size: 48px;
   font-weight: bold;
   margin: 140px;
+}
+
+.portrait {
+  width: 300px;
 }
 .navigation-links {
   display: flex;
@@ -90,4 +99,24 @@ h2 {
   box-shadow: 0 30px 50px rgba(65, 58, 100, 0.08);
   border: 10px solid rgba(8, 23, 58, 1);
   border-radius: 8px;
+}
+
+.about-section {
+  margin: 20px 0;
+}
+
+.about-description {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+}
+.about-description p {
+  margin: 10px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 22px;
+  line-height: 1.5;
+  width: 400px;
 }
