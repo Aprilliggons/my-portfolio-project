@@ -100,23 +100,7 @@ h2 {
   border: 10px solid rgba(8, 23, 58, 1);
   border-radius: 8px;
 }
-
-.about-section {
-  margin: 20px 0;
-}
-
-.about-description {
-  display: flex;
-  margin: 30px 0;
-  justify-content: center;
-}
-.about-description p {
-  margin: 10px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 22px;
-  line-height: 1.5;
-  width: 400px;
+.portrait-photo {
+  border-radius: 15px 15px;
+  border: 10px solid rgba(226, 232, 240, 1);
 }
