@@ -2,6 +2,8 @@
   --primary-color: rgba(15, 23, 42, 1);
   --secondary-color: rgba(226, 232, 240, 1);
   --accent-color: rgba(8, 23, 58, 1);
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "DM Sans", sans-serif;
 }
 
 body {
@@ -103,4 +105,21 @@ h2 {
 .portrait-photo {
   border-radius: 15px 15px;
   border: 10px solid rgba(226, 232, 240, 1);
+}
+.about-me-heading {
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
+
+.about-me-description {
+  font-family: var(--secondary-font);
+}
+.secondary-link {
+  padding: 20px;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--accent-color);
+  border-radius: 8px;
+  font-family: var(--secondary-font);
+  font-size: 18px;
 }
