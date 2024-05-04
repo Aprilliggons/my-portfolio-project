@@ -2,12 +2,13 @@
   --primary-color: rgba(15, 23, 42, 1);
   --secondary-color: rgba(226, 232, 240, 1);
   --accent-color: rgba(8, 23, 58, 1);
+  --other-color: rgb(38, 223, 230);
   --primary-font: "Playfair Display", serif;
   --secondary-font: "DM Sans", sans-serif;
 }
 
 body {
-  background-color: var(--secondary-color);
+  background-color: var(--other-color);
 }
 
 .about-section {
@@ -37,6 +38,10 @@ h2 {
   margin: 140px;
 }
 
+.job-title {
+  color: var(--other-color);
+}
+
 .portrait {
   width: 300px;
 }
@@ -49,6 +54,7 @@ h2 {
   background: var(--secondary-color);
   color: var(--primary-color);
   font-size: 20px;
+  font-weight: bold;
   border: none;
   padding: 20px 40px;
   border-radius: 20px;
@@ -58,7 +64,7 @@ h2 {
 
 .btn-primary:hover {
   background: var(--accent-color);
-  color: var(--secondary-color);
+  color: var(--other-color);
   transform: translateY(-5px);
 }
 .skills-section {
@@ -78,6 +84,7 @@ h2 {
 .project-description {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
+  font-weight: bold;
   color: rgba(15, 23, 42, 1);
 }
 
@@ -88,7 +95,10 @@ h2 {
   text-decoration: none;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
+  font-weight: bold;
   border-radius: 8px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 .primary-link:hover {
@@ -103,10 +113,11 @@ h2 {
   border-radius: 8px;
 }
 .portrait-photo {
-  border-radius: 15px 15px;
-  border: 10px solid rgba(226, 232, 240, 1);
+  border-radius: 15px;
+  border: 10px solid var(--other-color);
 }
-.about-me-heading {
+#about-me-heading {
+  color: var(--other-color);
   font-family: var(--primary-font);
   font-weight: 500;
 }
@@ -114,12 +125,71 @@ h2 {
 .about-me-description {
   font-family: var(--secondary-font);
 }
+.full-name {
+  font-weight: bold;
+  color: var(--other-color);
+}
+
 .secondary-link {
-  padding: 20px;
+  padding: 20px 36px;
   background-color: var(--secondary-color);
   text-decoration: none;
   color: var(--accent-color);
   border-radius: 8px;
   font-family: var(--secondary-font);
   font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.secondary-link:hover {
+  background: var(--other-color);
+  color: var(--accent-color);
+  transform: translateY(-5px);
+}
+
+.contact-me-link {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-bottom: 40px;
+}
+.projects-heading {
+  background-color: var(--primary-color);
+  padding: 60px;
+}
+.work-section {
+  background-color: var(--accent-color);
+}
+.work-heading {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  color: var(--other-color);
+  font-size: 48px;
+}
+.work-description {
+  font-weight: bold;
+  font-size: 16px;
+}
+.project-image {
+  border: 10px solid var(--other-color);
+}
+
+.third-link {
+  padding: 20px 36px;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--primary-color);
+  border-radius: 8px;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.third-link:hover {
+  background: var(--secondary-color);
+  color: var(--accent-color);
+  transform: translateY(-5px);
 }
