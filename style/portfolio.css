@@ -11,7 +11,8 @@ body {
   background-color: var(--other-color);
 }
 
-.about-section {
+.about-section,
+.contact-me-page {
   background-color: var(--primary-color);
 }
 h1 {
@@ -32,7 +33,8 @@ h2 {
   padding: 50px;
   padding-bottom: 20px;
 }
-.homepage p {
+.homepage p,
+.contact-info-section {
   font-size: 48px;
   font-weight: bold;
   margin: 140px;
@@ -192,4 +194,12 @@ h2 {
   background: var(--secondary-color);
   color: var(--accent-color);
   transform: translateY(-5px);
+}
+.contact-info-section {
+  background-color: var(--accent-color);
+  padding-top: 20px;
+}
+
+.socials {
+  color: var(--secondary-color);
 }
