@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: var(--other-color);
+  background-color: var(--primary-color);
 }
 
 .contact-me-page,
@@ -114,10 +114,14 @@ a {
   transform: translateY(-5px);
 }
 .skills-section {
-  color: rgba(15, 23, 42, 1);
+  background-color: var(--other-color);
+  color: var(--primary-color);
   font-family: "DM Sans", sans-serif;
   font-size: 24px;
   font-weight: bold;
+}
+.skills-background {
+  background-color: var(--other-color);
 }
 
 .project-name {
