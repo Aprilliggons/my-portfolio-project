@@ -32,37 +32,6 @@ a {
   text-decoration: none;
 }
 
-.navbar {
-  height: 90px;
-  background-color: var(--primary-color);
-  padding: 20px o;
-  align-items: center;
-}
-
-nav .navbar,
-.logo,
-i {
-  color: var(--other-color);
-  font-size: 22px;
-}
-nav .navbar,
-.logo,
-a {
-  font-size: 24px;
-  font-weight: 400;
-  color: var(--other-color);
-}
-.menu {
-  align-items: center;
-}
-
-.menu-links a {
-  font-weight: 500;
-  color: var(--other-color);
-  padding: 8px 16px;
-  gap: 32;
-}
-
 .menu-links a:hover {
   color: white;
   transition: all 100ms ease-in-out;
