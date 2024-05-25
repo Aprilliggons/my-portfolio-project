@@ -11,8 +11,8 @@ body {
   background-color: var(--other-color);
 }
 
-body .about-section,
-.contact-me-page {
+.contact-me-page,
+.about-section {
   background-color: var(--primary-color);
 }
 h1 {
@@ -55,6 +55,7 @@ a {
 .menu {
   align-items: center;
   gap: 32px;
+  padding-bottom: 5px;
 }
 
 .menu-links {
@@ -133,8 +134,6 @@ a {
   font-size: 20px;
   font-weight: bold;
   color: rgba(15, 23, 42, 1);
-  display: flex;
-  justify-content: center;
 }
 
 .primary-link {
