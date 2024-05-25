@@ -54,17 +54,13 @@ a {
 }
 .menu {
   align-items: center;
-  gap: 32px;
-}
-
-.menu-links {
-  gap: 24px;
 }
 
 .menu-links a {
   font-weight: 500;
   color: var(--other-color);
   padding: 8px 16px;
+  gap: 32;
 }
 
 .menu-links a:hover {
