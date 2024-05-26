@@ -42,11 +42,14 @@ nav {
 li {
   list-style: none;
   margin: 16px;
+  padding: 5px 10px 0 0;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
+  padding-left: 30px;
+  padding-bottom: 0;
 }
 .homepage p,
 .contact-info-section {
@@ -211,17 +214,22 @@ li {
 }
 .contact-me-section {
   margin: 175px auto;
-  background-color: var(--other-color);
-  width: 400px;
+  background-color: var(--primary-color);
+  width: 500px;
   border-radius: 10px;
-  border: 10px solid var(--accent-color);
+  border: 10px solid var(--other-color);
 }
 
 .contact-heading {
-  color: var(--primary-color);
+  color: var(--other-color);
 }
 .email-link {
-  color: var(--primary-color);
+  color: var(--other-color);
+  text-align: center;
+}
+
+.open-sources-link {
+  color: var(--other-color);
 }
 
 footer {

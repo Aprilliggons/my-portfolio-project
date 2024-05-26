@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn more about April Liggons, Front-end Developer with a talent for crafting dynamic and responsive web experiences. Discover her journey, skills in HTML, CSS,and JavaScript and modern frameworks, and her dedication to innovative web design and user experience"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,7 +36,7 @@
       src="https://kit.fontawesome.com/1df780997e.js"
       crossorigin="anonymous"
     ></script>
-    <title>About Me - April L.</title>
+    <title>About Me - April Liggons</title>
   </head>
   <body>
     <nav class="d-flex justify-content-between sticky-top">
@@ -42,9 +46,11 @@
       <div class="menu">
         <ul class="d-flex">
           <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/about.html" title="About April">About</a>
+          </li>
+          <li><a href="/work.html" title="April's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact April">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -79,7 +85,9 @@
       </div>
     </div>
     <div class="contact-me-link">
-      <a href="/contact.html" class="btn secondary-link"> Contact Me</a>
+      <a href="/contact.html" class="btn secondary-link" title="Contact April">
+        Contact Me</a
+      >
     </div>
     <script src="src/index.js"></script>
     <footer>
@@ -90,19 +98,37 @@
           >
         </div>
         <div class="d-flex justify-content-center social-links">
-          <a href="https://github.com/Aprilliggons" target="_blank">
+          <a
+            href="https://github.com/Aprilliggons"
+            target="_blank"
+            title="Github Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/aprilliggons/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/aprilliggons/"
+            target="_blank"
+            title="LinkedIn"
+          >
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
           <a
             href="https://www.facebook.com/lovee.taja?mibextid=LQQJ4d"
             target="_blank"
+            title="Facebook Profile"
           >
             <i class="fa-brands fa-facebook-f"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          The project was coded by April Liggons, and is
+          <a
+            href="https://github.com/Aprilliggons/my-portfolio-project"
+            title="Github"
+            class="open-sources-link"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </footer>
   </body>
