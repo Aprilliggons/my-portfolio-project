@@ -206,15 +206,21 @@ li {
   color: var(--accent-color);
   transform: translateY(-5px);
 }
-.contact-info-section {
-  background-color: var(--accent-color);
+.container {
   padding-top: 20px;
   border-radius: 10px;
-  border: 3px solid var(--other-color);
-}
 
-.socials {
-  color: var(--secondary-color);
+  margin: 175px auto;
+  padding: 0;
+}
+.social-links a {
+  margin: 20px 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
 }
 
 footer {
