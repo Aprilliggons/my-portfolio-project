@@ -11,10 +11,6 @@ body {
   background-color: var(--primary-color);
 }
 
-.contact-me-page,
-.about-section {
-  background-color: var(--primary-color);
-}
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -30,31 +26,36 @@ h2 {
 
 a {
   text-decoration: none;
+  font-size: 20px;
+  color: var(--primary-color);
 }
 
-.menu-links a:hover {
-  color: white;
-  transition: all 100ms ease-in-out;
+nav {
+  align-items: center;
+  background-color: var(--other-color);
+  color: var(--primary-color);
 }
 
-.homepage {
-  background-color: var(--primary-color);
-  padding-bottom: 20px;
+li {
+  list-style: none;
+  margin: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
 }
 .homepage p,
 .contact-info-section {
   font-size: 48px;
   font-weight: bold;
-  margin: 140px;
+  margin: 85px;
 }
 
 .job-title {
   color: var(--other-color);
 }
 
-.portrait {
-  width: 300px;
-}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -77,37 +78,31 @@ a {
   color: var(--other-color);
   transform: translateY(-5px);
 }
+
 .skills-section {
-  background-color: var(--other-color);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: "DM Sans", sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
-.skills-background {
-  background-color: var(--other-color);
-}
 
 .project-name {
   font-family: "Playfair Display", serif;
-  color: var(--accent-color);
+  color: var(--other-color);
   font-weight: bold;
   font-size: 64px;
-  width: 500px;
 }
 
 .project-description {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
-  font-weight: bold;
-  color: rgba(15, 23, 42, 1);
-  width: 500px;
+  color: var(--secondary-color);
 }
 
 .primary-link {
   padding: 15px;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
   text-decoration: none;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
@@ -123,18 +118,16 @@ a {
   transform: translateY(-5px);
 }
 
-.project-photo {
-  box-shadow: 0 30px 50px rgba(65, 58, 100, 0.08);
-  border: 10px solid rgba(8, 23, 58, 1);
-  border-radius: 8px;
-}
+.project-photo,
 .portrait-photo {
-  border-radius: 15px;
+  box-shadow: rgba(211, 210, 210, 0.301) 0px 10px 15px -3px,
+    rgba(211, 210, 210, 0.301) 0px 4px 6px -2px;
   border: 10px solid var(--other-color);
+  border-radius: 8px;
+  width: 530px;
 }
+
 #about-me-heading {
-  width: 600px;
-  text-align: center;
   color: var(--other-color);
   font-family: var(--primary-font);
   font-weight: 500;
@@ -144,6 +137,7 @@ a {
   font-family: var(--secondary-font);
   width: 600px;
 }
+
 .full-name {
   font-weight: bold;
   color: var(--other-color);
@@ -224,7 +218,7 @@ a {
 }
 
 footer {
-  margin: 60px;
+  margin: 30px;
 }
 
 footer .email-link {
@@ -239,8 +233,8 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--secondary-color);
-  background: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -248,6 +242,6 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
-  background: var(--secondary-color);
+  color: var(--secondary-color);
+  background: var(--accent-color);
 }
