@@ -93,6 +93,7 @@ a {
   color: var(--accent-color);
   font-weight: bold;
   font-size: 64px;
+  width: 500px;
 }
 
 .project-description {
@@ -100,6 +101,7 @@ a {
   font-size: 20px;
   font-weight: bold;
   color: rgba(15, 23, 42, 1);
+  width: 500px;
 }
 
 .primary-link {
@@ -131,6 +133,8 @@ a {
   border: 10px solid var(--other-color);
 }
 #about-me-heading {
+  width: 600px;
+  text-align: center;
   color: var(--other-color);
   font-family: var(--primary-font);
   font-weight: 500;
@@ -138,6 +142,7 @@ a {
 
 .about-me-description {
   font-family: var(--secondary-font);
+  width: 600px;
 }
 .full-name {
   font-weight: bold;
