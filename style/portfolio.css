@@ -209,7 +209,7 @@ li {
 .contact-me-section {
   margin: 175px auto;
   background-color: var(--other-color);
-  width: 800px;
+  width: 400px;
   border-radius: 10px;
   border: 10px solid var(--accent-color);
 }
